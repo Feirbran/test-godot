@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://sowks4mlgfar"]
+
+[node name="Alien" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="NeedsTimer" type="Timer" parent="."]

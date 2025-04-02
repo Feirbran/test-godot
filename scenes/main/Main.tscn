@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://ggf88df86waj"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Systems" type="Node2D" parent="."]
+
+[node name="EconomyManager" type="Node" parent="Systems"]
+
+[node name="BreedingManager" type="Node" parent="Systems"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="SpawnPoint" type="Marker2D" parent="Node2D"]
+
+[node name="Aliens" type="Node2D" parent="Node2D"]
+
+[node name="Eggs" type="Node2D" parent="Node2D"]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="HealthBar" type="TextureProgressBar" parent="UI"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HungerBar" type="TextureProgressBar" parent="UI"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ThirstBar" type="TextureProgressBar" parent="UI"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CreditsLabel" type="Label" parent="UI"]
+offset_right = 40.0
+offset_bottom = 23.0
